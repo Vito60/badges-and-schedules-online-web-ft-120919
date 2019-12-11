@@ -27,9 +27,13 @@ end
 
 def printer(attendees)
   my_variable =  batch_badge_creator(attendees)
- my_variable.each do |name|
-    puts name
-  end
+    my_variable.each do |name|
+      puts name
+   end
+  room_variable = assign_rooms(attendees)
+    room_variable.each do |name|
+      puts name
+    end
   
   
   

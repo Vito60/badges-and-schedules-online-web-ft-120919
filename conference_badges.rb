@@ -34,22 +34,9 @@ def printer(attendees)
     room_variable.each do |name|
       puts name
     end
-
 end
 
   
-  
-  
-  
-  # batch_badge_creator(attendees)
-  #   index = 0 
-  #   while index < badges.length do 
-  #     puts badges[index]
-  #     index += 1 
-  #   end
-
-# end
-
 
 
 

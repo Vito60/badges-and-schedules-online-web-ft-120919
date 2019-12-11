@@ -34,14 +34,7 @@ def printer(attendees)
     room_variable.each do |name|
       puts name
     end
-  
-  
-  
-  # new_array = []
-  # new_array << batch_badge_creator(attendees)
-  # new_array.each do |name|
-  #   puts name
-  # end
+
 end
 
   
